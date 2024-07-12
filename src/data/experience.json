@@ -1,0 +1,57 @@
+{
+    "data" : [
+        {
+            "title" : "Hardware Technician",
+            "type"  : "Freelance",
+            "company" : "Doniraj Kompjuter",
+            "location" : "Kavadarci, Macedonia",
+            "start_date" : "Jun 2021"   ,
+            "end_date" : "Oct 2022",
+            "skills" : ["IT Hardware Support","Maintenance & Repair","Software Installation","Linux","Windows"],
+            "descr" : "Lorem ipsum"
+        
+        },
+        {
+    "title" : "Computer Technician / IT Support",
+    "type"  : "Freelance",
+    "company" : "High School Dobri Daskalov",
+    "location" : "Kavadarci, Macedonia",
+    "start_date" : "Sep 2021",
+    "end_date" : "Jun 2022",
+    "skills" : ["Computer Networking","Technical Support","Maintenance & Repair"],
+    "descr" : "Lorem ipsum"
+
+},
+{
+    "title" : "Teaching Assistant",
+    "type"  : "Apprenticeship",
+    "company" : "UNHCR, the UN Refugee Agency",
+    "location" : "Skopje, Macedonia",
+    "start_date" : "Dec 2022",
+    "end_date" : "Feb 2023",
+    "skills" : ["Coaching & Mentoring","Software Development","Microsoft Office","Maintenance & Repair","Team Coordination"],
+    "descr" : "Lorem ipsum"
+},
+{
+    "title" : "IT Support / Host - Volunteer",
+    "type"  : "Apprenticeship",
+    "company" : "EOSC Future",
+    "location" : "Ohrid, Macedonia",
+    "start_date" : "Sep 2023",
+    "end_date" : "Sep 2023",
+    "skills" : ["EOSC Future training workshop in North Macedonia"],
+    "descr" : "Lorem ipsum"
+},
+{
+    "title" : "Coordinator of volunteers",
+    "type"  : "Volunteer",
+    "company" : "Doniraj Kompjuter",
+    "location" : "Kavadarci, Macedonia",
+    "start_date" : "Oct 2022",
+    "end_date" : "PRESENT",
+    "skills" : ["Communication","Nonprofit Organizations","Team Coordination","Project Planning","Coaching & Mentoring"],
+    "descr" : "Lorem ipsum"
+
+}
+]
+}

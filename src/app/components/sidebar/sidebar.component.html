@@ -1,1 +1,18 @@
-<p>sidebar works!</p>
+<aside class="navbar">
+  <div class="navbar-content">
+    <a href="#home" appAutoClick [appClickStyle]="anchors"
+      ><img src="assets/output-onlinepngtools (1).png" alt="Home" id="logo"
+    /></a>
+    <a href="#about" class="nav-text" [appClickStyle]="anchors">ABOUT</a>
+    <a href="#resume" class="nav-text" [appClickStyle]="anchors">RESUME</a>
+
+    <!-- <a href="#contact" class="nav-text" [appClickStyle]="anchors">CONTACT</a> -->
+    <a
+      href="https://kocew.hashnode.dev/"
+      class="nav-text"
+      target="_blank"
+      [appClickStyle]="anchors"
+      >BLOG</a
+    >
+  </div>
+</aside>

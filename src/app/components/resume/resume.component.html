@@ -1,1 +1,24 @@
-<p>resume works!</p>
+<section class="resume-container">
+  <ul>
+    <li
+      style="--accent-color: rgb(177, 53, 53)"
+      *ngFor="let item of experience"
+    >
+      <div class="date">{{ item["start_date"] }} - {{ item["end_date"] }}</div>
+      <div class="title">{{ item["title"] }} - {{ item["company"] }}</div>
+      <div class="descr">
+        <div *ngFor="let skill of item['skills']">
+          <p>- {{ skill }}</p>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <div class="div-btn">
+    <a
+      href="/assets/Resume_Zhivko_Kocev.pdf"
+      download="Resume_Zhivko_Kocev.pdf"
+      class="button"
+      >Download Resume</a
+    >
+  </div>
+</section>

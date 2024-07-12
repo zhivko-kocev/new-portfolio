@@ -1,0 +1,50 @@
+.about-container{
+    //background-color: #F3E5E6;
+    // height: 100vh;
+    margin-left: 170px;
+    //border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+.about-me{
+    width: 90%;
+    background-color:#fcf2f3;
+    box-shadow: #dccecf 0px 54px 55px, #dccecf 0px -12px 30px, #dccecf 0px 4px 6px, #dccecf 0px 12px 13px, #dccecf 0px -3px 5px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 75px;
+    padding-top: 55px;
+
+}
+p{
+    color: #6d4a4e;
+    font-size: 22px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+h1{
+    color: #6d4a4e;
+    font-size: 48px;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.about-me-text{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+@media (max-width: 603px) {
+    .about-container {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,31 @@
+
+@media (max-width: 603px) {
+    #side {
+        display: none;
+    }
+    #contact{
+      display: none;
+    }
+}
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(177, 53, 53);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: opacity 0.3s ease;
+    font-size: 32px;
+    //  font-weight: 900;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .scroll-to-top:hover {
+    background-color: #453032;
+  }
